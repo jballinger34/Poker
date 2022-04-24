@@ -1,10 +1,5 @@
-
 '''
-BUGZ:
-
-'''
-'''
-IDEARZ:
+IDEAS:
 
 Ranges can be applied by making a list of all hands in the range, randomly picking a hand from that list, and evaluating based off of that, will probably need a much larger
 sample size though.
@@ -14,7 +9,7 @@ sample size though.
 
 from time import perf_counter
 #from collections import Counter
-from jamiepoker import poker as Poker
+import poker as Poker
 
 times = perf_counter()
 a = []

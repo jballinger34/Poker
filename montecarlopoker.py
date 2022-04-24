@@ -1,6 +1,6 @@
 from time import perf_counter
 from collections import Counter
-from jamiepoker import poker as Poker
+import poker as Poker
 
 
 times = perf_counter()
